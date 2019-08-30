@@ -1,0 +1,14 @@
+434.400MHz  (0.0Khz
+1) Enable FSK RTTY
+
+2) Disable FSK RTTY
+3) Enable Address S
+4) Disable Address 
+5) Enable GPS Power
+6) Disable GPS Powe
+7) Enable Fence Che
+8) Disable Fence Ch
+9) Enable Doze Mode
+0) Disable Doze Mod
+434.400MHz  (0.0Khz
+50.953147,-0.100185
