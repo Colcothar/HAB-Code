@@ -23,11 +23,11 @@ if ( user_input == "y"):
 else:
     output_text = open(file_name, "w")
 
-first_line_set = input("\nSet a first line, y for custom, d for default or Enter for blank: ")
+first_line_set = input("\nSet a first line, y for custom, d for default: ")
 if first_line_set == "y":
     output_text.write(input("Set first line: ")+ "\n")
 elif first_line_set == "d":
-    output_text.write("Langitude, Longitude \n")
+    output_text.write("Latitude, Longitude \n")
     
 individual = input("Only show individual inputs: ")
 altitude = input("Altitude, y to add on, s for seperate: ")
