@@ -1,5 +1,8 @@
+# Takes an output ssh, and parse the long and lat.
+
 from time import sleep
-last_line = "0" 
+last_line = "0"
+
 def is_number(s):
     try:
         float(s)
