@@ -1,0 +1,2 @@
+This folder contains all the code for building, testing and running the LoRa Tracker boards from [LoRaTracker.uk](https://loratracker.uk)
+Thank you to [Stuart Robinson](https://github.com/LoRaTracker) for the Code and Boards.
