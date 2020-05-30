@@ -28,7 +28,7 @@ with picamera.PiCamera() as camera:
         a = str(a)
         total = a[0:22] + "    Temperature: " +  str(temperature)[0:4] + "  Humidity: " + str(humidity)[0:4] + "    $
         data.write(total)
-        print total
+        print(total)
 
 
         sleep(1)
