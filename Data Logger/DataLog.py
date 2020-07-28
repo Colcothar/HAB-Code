@@ -1,5 +1,4 @@
 
-
 import sys
 import Adafruit_DHT
 from time import sleep
@@ -26,7 +25,7 @@ with picamera.PiCamera() as camera:
         humidity, temperature = Adafruit_DHT.read_retry(Adafruit_DHT.AM2302, 4)
         a = datetime.datetime.now()
         a = str(a)
-        total = a[0:22] + "    Temperature: " +  str(temperature)[0:4] + "  Humidity: " + str(humidity)[0:4] + "    $
+        total = a[0:22] + "    Temperature: " +  str(temperature)[0:4] + "  Humidity: " + str(humidity)[0:4] + "  BMPTemp: " + str(temp) + "  Pressure: " + str(pressure) + "  Altitude: " + str(altitude)
         data.write(total)
         print(total)
 
